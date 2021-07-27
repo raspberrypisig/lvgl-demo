@@ -54,6 +54,7 @@ else:
 '''
 fs_drv = lv.fs_drv_t()
 fs_driver.fs_register(fs_drv, 'S')
+myfont_en = lv.font_load("S:./Morganite-Medium-144.bin")
 
 import sys
 sys.path.append('') # See: https://github.com/micropython/micropython/issues/6419
@@ -111,7 +112,7 @@ mystyle3.set_text_font(lv.font_montserrat_32)
 mystyle3.set_text_color(lv.color_hex3(0xFFF))
 
 
-myfont_en = lv.font_load("S:./Morganite-Medium-144.bin")
+
 
 dayOfWeek, currentTime, currentDate, amOrPm, morningOrAfternoon = getCurrentDateTime()
 
