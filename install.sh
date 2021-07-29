@@ -12,3 +12,4 @@ wget https://github.com/raspberrypisig/lvgl-demo/raw/main/clock.py
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final.sh
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/run.sh 
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/Morganite-Medium-144.bin
+chmod +x *.sh
