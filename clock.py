@@ -34,9 +34,10 @@ import lvgl as lv
 import utime
 import fs_driver
 
+
 #Uncomment one of the following, true means runs on desktop, false means run inside virtual console
-#RUN_THIS_PROGRAM_ON_DESKTOP=False
-RUN_THIS_PROGRAM_ON_DESKTOP=True
+RUN_THIS_PROGRAM_ON_DESKTOP=False
+#RUN_THIS_PROGRAM_ON_DESKTOP=True
 
 lv.init()
 if RUN_THIS_PROGRAM_ON_DESKTOP:
@@ -163,4 +164,4 @@ while True:
   label3.set_text(amOrPm)
   label4.set_text(currentDate)
   label5.set_text(morningOrAfternoon)
-  
+
