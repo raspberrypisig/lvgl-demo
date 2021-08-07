@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Dawn Clock
+Comment=Retro video game emulators
+Exec=/home/pi/Desktop/final3.sh
+Icon=face-smile-big
+Terminal=true
+Categories=Application;Game;
+
+

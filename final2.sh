@@ -3,7 +3,7 @@ set -x
 setterm --cursor off
 #setsid bash -c 'sudo chvt 1; cd /home/pi/Desktop ; exec ./run.sh <> /dev/tty1 >&0 2>&1'
 setterm --cursor off
-./run.sh
+/home/pi/Desktop/run.sh
 #read  < /dev/tty
 sudo pkill micropython
 sudo chvt 7
