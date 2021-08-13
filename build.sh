@@ -8,9 +8,10 @@ sed -ir 's/LV_FONT_MONTSERRAT_48    1/LV_FONT_MONTSERRAT_48    0/' lib/lv_bindin
 sed -ir 's/LV_FONT_MONTSERRAT_32    1/LV_FONT_MONTSERRAT_32    0/' lib/lv_bindings/lv_conf.h
 make -C mpy-cross
 make -C ports/unix
-cd
+cd Desktop
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/clock.py
-wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final.sh
+wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final3.sh
+wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final2.sh
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/run.sh 
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/Morganite-Medium-144.bin
 chmod +x *.sh
