@@ -14,6 +14,7 @@ wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final3.sh
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final2.sh
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/run.sh 
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/Morganite-Medium-144.bin
+chmod +x *.sh
 sudo wget -O /usr/share/applications/dawn.desktop https://github.com/raspberrypisig/lvgl-demo/raw/main/dawn.desktop
 sudo wget -O /etc/xdg/autostart/dawn.desktop https://github.com/raspberrypisig/lvgl-demo/raw/main/dawn.desktop
-chmod +x *.sh
+
