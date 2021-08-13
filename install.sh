@@ -5,6 +5,7 @@ sudo apt install -y build-essential libreadline-dev libffi-dev git pkg-config li
 git clone --recurse-submodules https://github.com/lvgl/lv_micropython
 cd lv_micropython/
 sed -ir 's/LV_FONT_MONTSERRAT_48    1/LV_FONT_MONTSERRAT_48    0/' lib/lv_bindings/lv_conf.h
+sed -ir 's/LV_FONT_MONTSERRAT_32    1/LV_FONT_MONTSERRAT_32    0/' lib/lv_bindings/lv_conf.h
 make -C mpy-cross
 make -C ports/unix
 cd
