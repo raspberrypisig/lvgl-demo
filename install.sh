@@ -4,7 +4,7 @@ cd /home/pi/Desktop
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/clock.py
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final3.sh
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/final2.sh
-wget -O run.sh https://github.com/raspberrypisig/lvgl-demo/raw/main/run.sh
+wget -O run.sh https://github.com/raspberrypisig/lvgl-demo/raw/main/runrelease.sh
 wget https://github.com/raspberrypisig/lvgl-demo/raw/main/Morganite-Medium-144.bin
 chmod +x *.sh
 sudo wget -O /usr/share/applications/dawn.desktop https://github.com/raspberrypisig/lvgl-demo/raw/main/dawn.desktop
