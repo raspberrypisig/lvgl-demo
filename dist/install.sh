@@ -12,7 +12,7 @@ sudo cp /usr/share/applications/dawn.desktop  /etc/xdg/autostart
 cp /usr/share/applications/dawn.desktop  /home/pi/Desktop
 sudo wget -O /usr/local/bin/micropython https://github.com/raspberrypisig/lvgl-demo/raw/main/micropython
 sudo chmod 755 /usr/local/bin/micropython
-mkdir /home/pi/lv_micropython/lib/lv_bindings/lib
+mkdir -p /home/pi/lv_micropython/lib/lv_bindings/lib
 cd /home/pi/lv_micropython/lib/lv_bindings/lib
 wget -O lib.zip https://github.com/raspberrypisig/lvgl-demo/raw/main/dist/lib.zip
 unzip lib.zip
