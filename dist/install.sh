@@ -18,4 +18,5 @@ wget -O lib.zip https://github.com/raspberrypisig/lvgl-demo/raw/main/dist/lib.zi
 unzip lib.zip
 rm lib.zip
 sudo wget -O /boot/config.txt https://github.com/raspberrypisig/lvgl-demo/raw/main/dist/config.txt
+echo "Install complete. Reboot."
 
